@@ -1,7 +1,6 @@
 package sntable
 
 import (
-	"bytes"
 	"encoding/binary"
 	"io"
 	"sort"
@@ -29,9 +28,6 @@ func NewReader(r io.ReaderAt, size int64) (*Reader, error) {
 	}
 
 	// parse footer
-	if !bytes.Equal(tmp[8:16], magic) {
-		return nil, errBadMagic
-	}
 	indexOffset := int64(binary.LittleEndian.Uint64(tmp[:8]))
 
 	// read index

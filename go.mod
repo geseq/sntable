@@ -1,4 +1,4 @@
-module github.com/bsm/sntable
+module github.com/geseq/sntable
 
 go 1.12
 

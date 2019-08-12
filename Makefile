@@ -10,4 +10,4 @@ test:
 
 # go get -u github.com/davelondon/rebecca/cmd/becca
 README.md: README.md.tpl
-	becca -package github.com/bsm/sntable
+	becca -package github.com/geseq/sntable

@@ -3,7 +3,7 @@ package sntable_test
 import (
 	"fmt"
 
-	"github.com/bsm/sntable"
+	"github.com/geseq/sntable"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/types"

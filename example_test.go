@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/bsm/sntable"
+	"github.com/geseq/sntable"
 )
 
 func ExampleWriter() {

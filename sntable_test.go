@@ -6,7 +6,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/bsm/sntable"
+	"github.com/geseq/sntable"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )
