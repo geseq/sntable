@@ -163,6 +163,10 @@ func (w *Writer) writeRaw(p []byte) error {
 	return err
 }
 
+func (w *Writer) Flush() error {
+	return w.flush()
+}
+
 func (w *Writer) flush() error {
 	if len(w.buf) == 0 {
 		return nil
